@@ -1,16 +1,27 @@
-# orders_flutter_app
+# Orders Flutter App
 
-A new Flutter project.
+A Flutter project for Web, iOS and Android.
 
-## Getting Started
+In this app. You can find 2 screen 
+- The Dashboard Screen
+- The Graph Screen 
+  
+---
 
-This project is a starting point for a Flutter application.
+## Screens
 
-A few resources to get you started if this is your first Flutter project:
+### 1. Dashboard Screen
+Contains 4 cards these 4 cards are `Total Orders`, `Total Revenue`, `Avg. Price` and `Total Returns`.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 2. Graph Screen
+Contains a graph displaying the number of **Orders as the Y-axis** and **Time as the X-axis**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## How to Run the code 
+
+1. First you need to install flutter on your device from: [Flutter Installation](https://docs.flutter.dev/get-started/install?_gl=1*1121x3o*_ga*ODYwMzQ5NTE1LjE3MzMyNjQ4NjE.*_ga_04YGWK0175*MTczMzI2NDg2Ni4xLjAuMTczMzI2NDg2Ni4wLjAuMA..)
+2. Open the terminal at the project directory 
+3. Then get the package using  `flutter pub get`
+4. Run the code: `flutter run --release` 
+5. You may need to choose the platform you want to run the code on it Android, iOS, Or Web 
